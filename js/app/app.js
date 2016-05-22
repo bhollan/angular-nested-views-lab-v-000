@@ -18,4 +18,8 @@ angular
           url: 'notifications',
           templateUrl: 'views/home/notifications.html'
         })
+        .state('default',{
+          url: '',
+          templateUrl: 'views/home.html'
+        });
     });
